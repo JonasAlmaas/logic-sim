@@ -8,6 +8,6 @@ namespace elm {
 	{
 		elm::application_specification spec;
 		spec.name = "LogicSim";
-		return new app(spec, args);
+		return new logic_sim::app(spec, args);
 	}
 }

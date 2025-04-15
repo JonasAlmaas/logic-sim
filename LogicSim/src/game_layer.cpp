@@ -1,4 +1,4 @@
-#include "game_layer.h"
+#include "game_layer.hpp"
 
 game_layer::game_layer(void)
 	: layer("GameLayer")

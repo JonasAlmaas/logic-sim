@@ -1,4 +1,4 @@
-# Elm Engine Template [![License](https://img.shields.io/github/license/JonasAlmaas/ElmTemplate.svg)](https://github.com/JonasAlmaas/ElmTemplate/blob/main/LICENSE)
+# Elm Engine Template [![License](https://img.shields.io/github/license/JonasAlmaas/logic-sim.svg)](https://github.com/JonasAlmaas/logic-sim/blob/master/LICENSE)
 
 Elm engine template repository
 
@@ -6,7 +6,7 @@ Elm engine template repository
 
 ### 1. Cloning the repository
 
-Start by cloning the repository with `git clone --recursive https://github.com/JonasAlmaas/ElmTemplate.git`
+Start by cloning the repository with `git clone --recursive https://github.com/JonasAlmaas/logic-sim.git`
 
 If the repository was cloned non-recursively previously, use `git submodule update --init --recursive` to clone the necessary submodules.
 
@@ -16,11 +16,7 @@ If the repository was cloned non-recursively previously, use `git submodule upda
 
 I don't exactly know what you need, so just tick everything for now :D
 
-### 3. Naming the project
-
-Search for every instance of "GameName" and replace it with the name of your game/project.
-
-### 4. Generation build
+### 3. Generation build
 
 This project uses [Premake](https://premake.github.io) to generate build files. Here is an example of how to generate a Visual Studio solution:
 

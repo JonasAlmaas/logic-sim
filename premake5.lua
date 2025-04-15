@@ -1,9 +1,9 @@
 include "./Elm/vendor/premake/premake_customization/solution_items.lua"
 include "dependencies.lua"
 
-workspace "GameName"
+workspace "LogicSim"
 	architecture "x86_64"
-	startproject "GameName"
+	startproject "LogicSim"
 
 	configurations {
 		"Debug",
@@ -34,4 +34,4 @@ workspace "GameName"
 	group ""
 	
 	include "Elm/Elm"
-	include "GameName"
+	include "LogicSim"

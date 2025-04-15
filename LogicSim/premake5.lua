@@ -1,4 +1,4 @@
-project "GameName"
+project "LogicSim"
 	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++23"
